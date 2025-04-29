@@ -12,11 +12,11 @@ body {
 }
 
 .pressed {
-    background-color: black;
+    background-color: #B5485D;
 }
 
 .navbar-scrolled {
-    background-color: black;
+    background-color: #B5485D;
 }
 
 .navbar-scrolled #navbar-container {
@@ -27,4 +27,16 @@ body {
     #navbar-container {
       flex-direction: row;
     }
+}
+
+/* Carousel */
+.fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.5s ease;
+}
+
+.fade-up.active {
+    opacity: 1;
+    transform: translateY(0);
 }
