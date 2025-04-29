@@ -1,0 +1,30 @@
+body {
+    overflow-x: hidden;
+}
+
+/* Navbar */
+#navbar-1{
+    transition: all 0.3s ease;
+}
+
+#navbar-container {
+    flex-direction: column;
+}
+
+.pressed {
+    background-color: black;
+}
+
+.navbar-scrolled {
+    background-color: black;
+}
+
+.navbar-scrolled #navbar-container {
+    flex-direction: row;
+}
+
+@media (max-width: 991.98px) {
+    #navbar-container {
+      flex-direction: row;
+    }
+}
