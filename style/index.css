@@ -1,0 +1,54 @@
+body {
+    overflow-x: hidden;
+}
+
+/* Navbar */
+#navbar-1{
+    transition: all 0.3s ease;
+}
+
+.navbar-toggler {
+    border-color: transparent;
+}
+  
+.navbar-toggler-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.pressed {
+    backdrop-filter: blur(10px);
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+.navbar-scrolled {
+    backdrop-filter: blur(10px);
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+.navbar-scrolled #navbar-container {
+    flex-direction: row;
+}
+
+@media (max-width: 991.98px) {
+    #navbar-container {
+      flex-direction: row;
+    }
+}
+
+/* Carousel */
+.fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.5s ease;
+}
+
+.fade-up.active {
+    opacity: 1;
+    transform: translateY(0);
+}
