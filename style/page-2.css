@@ -4,10 +4,6 @@
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-body {
-    height: 100rem;
-}
-
 /* Navbar */
 #navbar-1{
     transition: all 0.3s ease;
@@ -41,14 +37,17 @@ body {
     flex-direction: row;
 }
 
-@media (max-width: 991.98px) {
-    #navbar-container {
-      flex-direction: row;
-    }
+/* Main */
+.main-title {
+    font-size: 5em;
+    letter-spacing: 10px;
 }
 
-/* Main */
-#main-title {
-    font-size: 8em;
-    letter-spacing: 10px;
+.custom-img-left {
+    max-height: 515px;
+}
+
+.custom-img {
+  max-height: 250px;
+  object-fit: cover;
 }
