@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
 body {
     height: 100rem;
 }
@@ -17,7 +23,7 @@ body {
 
 .pressed {
     backdrop-filter: blur(10px);
-    background-color: rgba(0,0,0,0.2); /* sesuaikan dengan tema warna */
+    background-color: rgba(0,0,0,0.2);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     transition: all 0.3s ease;
@@ -25,7 +31,7 @@ body {
 
 .navbar-scrolled {
     backdrop-filter: blur(10px);
-    background-color: rgba(0,0,0,0.2); /* sesuaikan dengan tema warna */
+    background-color: rgba(0,0,0,0.2);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     transition: all 0.3s ease;
@@ -44,4 +50,5 @@ body {
 /* Main */
 #main-title {
     font-size: 8em;
+    letter-spacing: 10px;
 }
