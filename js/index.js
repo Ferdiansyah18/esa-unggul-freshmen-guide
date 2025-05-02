@@ -39,3 +39,28 @@ window.addEventListener('DOMContentLoaded', () => {
     el.classList.add('active');
   });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const contents = {
+    pria: {
+      image: "img/Dress-Code-Pria.jpeg",
+      genderText: "Untuk pria: kemeja/kaos berkerah dan celana panjang adalah pilihan aman dan sesuai."
+    },
+    wanita: {
+      image: "img/Dress-Code-Wanita.jpeg",
+      genderText: "Untuk wanita: blus rapi dengan rok/celana panjang atau dress sederhana adalah pilihan yang sesuai."
+    }
+  };
+
+  function updateContent(gender) {
+    document.getElementById('mainImage').src = contents[gender].image;
+    document.getElementById('genderContent').textContent = contents[gender].genderText;
+    
+    document.getElementById('btnPria').classList.remove('active');
+    document.getElementById('btnWanita').classList.remove('active');
+    document.getElementById('btn' + gender.charAt(0).toUpperCase() + gender.slice(1)).classList.add('active');
+  }
+
+  document.getElementById('btnPria').addEventListener('click', () => updateContent('pria'));
+  document.getElementById('btnWanita').addEventListener('click', () => updateContent('wanita'));
+});

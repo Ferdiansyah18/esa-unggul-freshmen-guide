@@ -56,3 +56,20 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* Do & Don't */
+.main-title {
+    font-size: 3em;
+    letter-spacing: 8px;
+}
+
+.custom-img-left {
+    max-height: 515px;
+}
+
+.custom-img {
+  max-height: 250px;
+  object-fit: cover;
+}
+
+/* Dress Code */
