@@ -70,5 +70,18 @@ function setFullHeight() {
   document.documentElement.style.setProperty('--vh', `${vh}px`);
 }
 
-window.addEventListener('resize', setFullHeight);
+// Set awal saat load
 window.addEventListener('load', setFullHeight);
+
+// Update saat window resize
+window.addEventListener('resize', setFullHeight);
+
+// Optional: Update juga saat scroll (untuk menangkap perubahan UI Chrome di mobile)
+let lastHeight = window.innerHeight;
+window.addEventListener('scroll', () => {
+  const currentHeight = window.innerHeight;
+  if (currentHeight !== lastHeight) {
+    lastHeight = currentHeight;
+    setFullHeight();
+  }
+});
