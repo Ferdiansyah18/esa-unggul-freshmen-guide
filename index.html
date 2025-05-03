@@ -8,6 +8,7 @@
     <!-- Style -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
@@ -90,8 +91,8 @@
 
     <section class="container py-5">
       <div class="text-center">
-        <h2 class="fw-bold main-title">Welcome</h2>
-        <p class="lh-lg">Selamat datang di portal resmi mahasiswa baru! Di sini, kamu akan menemukan semua informasi penting, panduan, dan dukungan yang kamu butuhkan untuk memulai perjalanan akademikmu dengan percaya diri dan semangat.</p>
+        <h2 class="fw-bold main-title" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">Welcome</h2>
+        <p class="lh-lg" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="0">Selamat datang di portal resmi mahasiswa baru! Di sini, kamu akan menemukan semua informasi penting, panduan, dan dukungan yang kamu butuhkan untuk memulai perjalanan akademikmu dengan percaya diri dan semangat.</p>
       </div>
     </section>
 
@@ -99,7 +100,7 @@
 
     <!-- Menu Start -->
 
-    <section class="container pb-5">
+    <section class="container pb-5" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="300" data-aos-offset="0">
       <div class="row g-3">
         <div class="col-12 col-lg-5">
           <a href="#">
@@ -137,10 +138,10 @@
 
     <!-- Do & Don't Start -->
     
-    <section class="p-5 mt-5">
-      <h2 class="main-title fw-bold text-center text-md-start">Do & Don't</h2>
-      <div class="row d-flex flex-column flex-md-row justify-content-start align-items-start gap-5 py-5">
-        <div class="border col-12 col-md-4 p-4 rounded bg-dark text-light lh-lg">
+    <section class="p-5">
+      <h2 class="main-title fw-bold text-center text-md-start" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">Do & Don't</h2>
+      <div class="row d-flex flex-column flex-md-row justify-content-center align-items-start gap-5 py-5">
+        <div class="border col-12 col-md-4 p-4 rounded bg-dark text-light lh-lg" data-aos="flip-right" data-aos-once="true" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="0">
           <h3 class="pb-2">Yang Harus Dilakukan:</h3>
           <div class="d-flex gap-2">
             <i class="bi bi-check-lg text-success"></i>
@@ -163,7 +164,7 @@
             <p>Rawat fasilitas kampus dan jaga kebersihan lingkungan.</p>
           </div>
         </div>
-        <div class="border col-12 col-md-4 p-4 rounded bg-dark text-light lh-lg">
+        <div class="border col-12 col-md-4 p-4 rounded bg-dark text-light lh-lg" data-aos="flip-left" data-aos-once="true" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="0">
           <h3 class="pb-2">Yang Tidak Boleh Dilakukan:</h3>
           <div class="d-flex gap-2">
             <i class="bi bi-x-lg text-danger"></i>
@@ -188,8 +189,8 @@
         </div>
       </div>
       <div>
-        <h3 class="fw-bold">Perhatikan juga peringatan-peringatan yang dapat ditemui di area kampus!</h3>
-        <div class="row pt-3">
+        <h3 class="fw-bold" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="0">Perhatikan juga peringatan-peringatan yang dapat ditemui di area kampus!</h3>
+        <div class="row pt-3" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="500" data-aos-offset="0">
           <!-- Gambar Kiri Full -->
           <div class="col-12 col-md-5 mb-3 mb-md-0">
             <img src="img/Larangan-1.jpeg" alt="" class="rounded img-fluid w-100 h-100 object-fit-cover custom-img-left">
@@ -220,14 +221,14 @@
     <!-- Dress Code Start -->
 
     <section class="p-5 bg-dark">
-      <h2 class="main-title fw-bold text-center text-md-start text-light pb-3">Dress Code</h2>
-      <div class="d-flex justify-content-center justify-content-md-start gap-2">
+      <h2 class="main-title fw-bold text-center text-md-start text-light pb-3" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="0">Dress Code</h2>
+      <div class="d-flex justify-content-center justify-content-md-start gap-2" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="400" data-aos-offset="0">
         <button id="btnPria" class="btn btn-outline-light active">Pria</button>
         <button id="btnWanita" class="btn btn-outline-light">Wanita</button>
       </div>
       <div class="row pt-5">
-        <div class="col-md-5">
-          <div class="row g-2 justify-content-center">
+        <div class="col-md-5" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="600" data-aos-offset="0">
+          <div class="row g-2 pb-5">
             <div class="col-12 col-sm-10 col-md-12">
               <div class="ratio ratio-1x1">
                 <img id="mainImage" src="img/Dress-Code-Pria.jpeg" alt="Dress Code" class="img-fluid object-fit-cover rounded">
@@ -238,41 +239,43 @@
         
         <div class="col-md-7 mt-3 mt-md-0 ps-md-4">
           <div class="lh-lg text-light">
-            <h3 class="fw-bold">Panduan Berpakaian di Kampus</h3>
-            <p>
-              Berpakaian rapi dan sopan adalah bentuk penghargaan terhadap lingkungan akademik. Berikut beberapa hal yang perlu diperhatikan:
-            </p>
-            <ol>
-              <li>Gunakan pakaian rapi dan sopan, terutama saat menghadiri perkuliahan, kegiatan resmi, atau bertemu dosen.</li>
-              <li id="genderContent">Untuk pria: kemeja/kaos berkerah dan celana panjang adalah pilihan aman dan sesuai.</li>
-            </ol>
-            <p>Saat kegiatan akademik formal (seminar, sidang, presentasi)</p>
-            <ul>
-              <li>
-                Kenakan pakaian formal seperti kemeja, jas almamater, dan sepatu tertutup.
-              </li>
-              <li>
-                Membawa kartu tanda mahasiswa untuk absen.
-              </li>
-              <li>
-                Berpakaian sesuai aturan.
-              </li>
-              <li>
-                Datang tepat waktu.
-              </li>
-            </ul>
-            <p>Yang Sebaiknya Dihindari:</p>
-            <ol>
-              <li>
-                Pakaian yang terlalu santai seperti celana pendek, sandal jepit, tank top, atau baju transparan.
-              </li>
-              <li>
-                Atribut atau simbol yang mengandung unsur provokatif, SARA, atau kekerasan.
-              </li>
-              <li>
-                Pakaian yang tidak sesuai dengan kegiatan—misalnya mengenakan pakaian olahraga ke dalam kelas teori.
-              </li>
-            </ol>
+            <h3 class="fw-bold" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="800" data-aos-offset="0">Panduan Berpakaian di Kampus</h3>
+            <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="1000" data-aos-offset="0">
+              <p>
+                Berpakaian rapi dan sopan adalah bentuk penghargaan terhadap lingkungan akademik. Berikut beberapa hal yang perlu diperhatikan:
+              </p>
+              <ol>
+                <li>Gunakan pakaian rapi dan sopan, terutama saat menghadiri perkuliahan, kegiatan resmi, atau bertemu dosen.</li>
+                <li id="genderContent">Untuk pria: kemeja/kaos berkerah dan celana panjang adalah pilihan aman dan sesuai.</li>
+              </ol>
+              <p>Saat kegiatan akademik formal (seminar, sidang, presentasi)</p>
+              <ul>
+                <li>
+                  Kenakan pakaian formal seperti kemeja, jas almamater, dan sepatu tertutup.
+                </li>
+                <li>
+                  Membawa kartu tanda mahasiswa untuk absen.
+                </li>
+                <li>
+                  Berpakaian sesuai aturan.
+                </li>
+                <li>
+                  Datang tepat waktu.
+                </li>
+              </ul>
+              <p>Yang Sebaiknya Dihindari:</p>
+              <ol>
+                <li>
+                  Pakaian yang terlalu santai seperti celana pendek, sandal jepit, tank top, atau baju transparan.
+                </li>
+                <li>
+                  Atribut atau simbol yang mengandung unsur provokatif, SARA, atau kekerasan.
+                </li>
+                <li>
+                  Pakaian yang tidak sesuai dengan kegiatan—misalnya mengenakan pakaian olahraga ke dalam kelas teori.
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>
@@ -306,6 +309,7 @@
 
     <!-- Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
