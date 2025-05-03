@@ -46,6 +46,14 @@ body {
 }
 
 /* Carousel */
+:root {
+    --vh: 1vh;
+}
+
+#carouselExampleIndicators {
+    height: calc(var(--vh, 1vh) * 100);
+ }
+
 .fade-up {
     opacity: 0;
     transform: translateY(30px);

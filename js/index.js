@@ -64,3 +64,11 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('btnPria').addEventListener('click', () => updateContent('pria'));
   document.getElementById('btnWanita').addEventListener('click', () => updateContent('wanita'));
 });
+
+function setFullHeight() {
+  const vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+
+window.addEventListener('resize', setFullHeight);
+window.addEventListener('load', setFullHeight);
