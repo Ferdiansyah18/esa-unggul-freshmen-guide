@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Panduan lengkap untuk mahasiswa baru Universitas Esa Unggul. Temukan informasi penting seputar kehidupan kampus, tips kuliah, dan hal-hal seru yang wajib kamu ketahui sebagai freshie!">
+    <meta property="og:title" content="Esa Unggul Freshmen Guide" />
+    <meta property="og:description" content="Panduan lengkap untuk mahasiswa baru Universitas Esa Unggul. Temukan informasi penting seputar kehidupan kampus, tips kuliah, dan hal-hal seru yang wajib kamu ketahui sebagai freshie!"/>
+    <title>Esa Unggul Freshmen Guide</title>
 
     <!-- Style -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style/index.css">
+    <link rel="shortcut icon" href="img/logo-website.png" type="image/x-icon">
 </head>
 <body>
     
@@ -18,7 +22,7 @@
     <nav class="navbar navbar-expand-lg fixed-top" id="navbar-1">
       <div class="container-fluid d-flex" id="navbar-container">
         <a class="navbar-brand" href="#">
-          <h1 class="text-light">Navbar</h1>
+          <h1 class="text-light">UEU</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onclick="menuButton()">
           <span class="navbar-toggler-icon"></span>
@@ -26,9 +30,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
-            <a class="nav-link text-light" href="#">Features</a>
-            <a class="nav-link text-light" href="#">Pricing</a>
-            <a class="nav-link text-light" aria-disabled="true">Disabled</a>
+            <a class="nav-link text-light" href="#do-dont">Do & Don't</a>
+            <a class="nav-link text-light" href="#dress-code">Dress Code</a>
           </div>
         </div>
       </div>
@@ -47,31 +50,31 @@
       </div>
       <div class="carousel-inner h-100">
         <div class="carousel-item active h-100">
-          <img src="img/Kantin.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." style="filter: brightness(0.5);">
+          <img src="img/Kantin.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="Kantin" style="filter: brightness(0.5);">
           <div class="position-absolute z-1 bottom-0 text-light p-5 mb-5">
-            <h2 class="fade-up">Title</h2>
-            <p class="fade-up lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus officiis illum earum tempore sapiente nulla exercitationem incidunt, expedita iste eligendi reprehenderit asperiores est magni autem. Id reiciendis inventore sed delectus?</p>
+            <h2 class="fade-up">Kantin</h2>
+            <p class="fade-up lh-lg">Lapar setelah kelas? Langsung melipir ke kantin! Banyak pilihan makanan enak, harga ramah kantong, dan tempat nongkrong asyik bareng teman-teman.</p>
           </div>
         </div>
         <div class="carousel-item h-100">
-          <img src="img/ATM.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." style="filter: brightness(0.5);">
+          <img src="img/ATM.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="ATM" style="filter: brightness(0.5);">
           <div class="position-absolute z-1 bottom-0 text-light p-5 mb-5">
-            <h2 class="fade-up">Title</h2>
-            <p class="fade-up lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus officiis illum earum tempore sapiente nulla exercitationem incidunt, expedita iste eligendi reprehenderit asperiores est magni autem. Id reiciendis inventore sed delectus?</p>
+            <h2 class="fade-up">ATM</h2>
+            <p class="fade-up lh-lg">Uang habis? Tenang, ATM ada di dekat kamu! Praktis dan mudah diakses kapan pun kamu butuh.</p>
           </div>
         </div>
         <div class="carousel-item h-100">
-          <img src="img/Parkiran-3.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." style="filter: brightness(0.5);">
+          <img src="img/Parkiran-1.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="Parkiran" style="filter: brightness(0.5);">
           <div class="position-absolute z-1 bottom-0 text-light p-5 mb-5">
-            <h2 class="fade-up">Title</h2>
-            <p class="fade-up lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus officiis illum earum tempore sapiente nulla exercitationem incidunt, expedita iste eligendi reprehenderit asperiores est magni autem. Id reiciendis inventore sed delectus?</p>
+            <h2 class="fade-up">Parkiran</h2>
+            <p class="fade-up lh-lg">Datang bawa kendaraan? Parkir tenang dengan area luas dan penjagaan keamanan 24 jam. Motor atau mobil, semua ada tempatnya!</p>
           </div>
         </div>
         <div class="carousel-item h-100">
-          <img src="img/Vending-Machine.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." style="filter: brightness(0.5);">
+          <img src="img/Vending-Machine.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="Vending Machine" style="filter: brightness(0.5);">
           <div class="position-absolute z-1 bottom-0 text-light p-5 mb-5">
-            <h2 class="fade-up">Title</h2>
-            <p class="fade-up lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus officiis illum earum tempore sapiente nulla exercitationem incidunt, expedita iste eligendi reprehenderit asperiores est magni autem. Id reiciendis inventore sed delectus?</p>
+            <h2 class="fade-up">Vending Machine</h2>
+            <p class="fade-up lh-lg">Butuh minuman cepat? Vending machine siap menyegarkan harimu. Pilih, tap, nikmati—semudah itu!</p>
           </div>
         </div>
       </div>
@@ -138,7 +141,7 @@
 
     <!-- Do & Don't Start -->
     
-    <section class="p-5">
+    <section class="p-5" id="do-dont">
       <h2 class="main-title fw-bold text-center text-md-start" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">Do & Don't</h2>
       <div class="row d-flex flex-column flex-md-row justify-content-center align-items-start gap-5 py-5">
         <div class="border col-12 col-md-4 p-4 rounded bg-dark text-light lh-lg" data-aos="flip-right" data-aos-once="true" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="0">
@@ -191,22 +194,21 @@
       <div>
         <h3 class="fw-bold" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="0">Perhatikan juga peringatan-peringatan yang dapat ditemui di area kampus!</h3>
         <div class="row pt-3" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="500" data-aos-offset="0">
-          <!-- Gambar Kiri Full -->
+
           <div class="col-12 col-md-5 mb-3 mb-md-0">
-            <img src="img/Larangan-1.jpeg" alt="" class="rounded img-fluid w-100 h-100 object-fit-cover custom-img-left">
+            <img src="img/Larangan-1.jpeg" alt="Larangan 1" class="rounded img-fluid w-100 h-100 object-fit-cover custom-img-left">
           </div>
       
-          <!-- Gambar Kanan -->
           <div class="col-12 col-md-7">
             <div class="mb-3">
-              <img src="img/Larangan-2.jpeg" alt="" class="rounded img-fluid w-100 custom-img">
+              <img src="img/Larangan-2.jpeg" alt="Larangan 2" class="rounded img-fluid w-100 custom-img">
             </div>
             <div class="row">
               <div class="col-6">
-                <img src="img/Larangan-3.jpeg" alt="" class="rounded img-fluid w-100 custom-img">
+                <img src="img/Larangan-3.jpeg" alt="Larangan 3" class="rounded img-fluid w-100 custom-img">
               </div>
               <div class="col-6">
-                <img src="img/Tempat-Sampah.jpeg" alt="" class="rounded img-fluid w-100 custom-img">
+                <img src="img/Tempat-Sampah.jpeg" alt="Larangan 4" class="rounded img-fluid w-100 custom-img">
               </div>
             </div>
           </div>
@@ -220,7 +222,7 @@
 
     <!-- Dress Code Start -->
 
-    <section class="p-5 bg-dark">
+    <section class="p-5 bg-dark" id="dress-code">
       <h2 class="main-title fw-bold text-center text-md-start text-light pb-3" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="0">Dress Code</h2>
       <div class="d-flex justify-content-center justify-content-md-start gap-2" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="400" data-aos-offset="0">
         <button id="btnPria" class="btn btn-outline-light active">Pria</button>
@@ -283,14 +285,6 @@
     
 
     <!-- Dress Code End -->
-
-    <!-- Lokasi Ruangan Start -->
-
-    <section class="p-5">
-      <h2 class="main-title fw-bold text-center text-md-start">Lokasi Ruangan</h2>
-    </section>
-
-    <!-- Lokasi Ruangan End -->
 
     <!-- Footer Start -->
     <div class="container">
