@@ -20,9 +20,9 @@
     <!-- Navbar Start -->
 
     <nav class="navbar navbar-expand-lg fixed-top" id="navbar-1">
-      <div class="container-fluid d-flex" id="navbar-container">
+      <div class="container-fluid d-flex align-items-start align-items-md-center" id="navbar-container">
         <a class="navbar-brand" href="#">
-          <h1 class="text-light">UEU</h1>
+          <h1 class="text-light fs-2">Esa Unggul Freshmen Guide</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onclick="menuButton()">
           <span class="navbar-toggler-icon"></span>
@@ -32,6 +32,7 @@
             <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
             <a class="nav-link text-light" href="#do-dont">Do & Don't</a>
             <a class="nav-link text-light" href="#dress-code">Dress Code</a>
+            <a class="nav-link text-light" href="#lokasiruangan">Lokasi Ruangan</a>
           </div>
         </div>
       </div>
@@ -95,7 +96,7 @@
     <section class="container py-5">
       <div class="text-center">
         <h2 class="fw-bold main-title" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">Welcome</h2>
-        <p class="lh-lg" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="0">Selamat datang di portal resmi mahasiswa baru! Di sini, kamu akan menemukan semua informasi penting, panduan, dan dukungan yang kamu butuhkan untuk memulai perjalanan akademikmu dengan percaya diri dan semangat.</p>
+        <p class="lh-lg" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">Selamat datang di portal resmi mahasiswa baru! Di sini, kamu akan menemukan semua informasi penting, panduan, dan dukungan yang kamu butuhkan untuk memulai perjalanan akademikmu dengan percaya diri dan semangat.</p>
       </div>
     </section>
 
@@ -103,37 +104,18 @@
 
     <!-- Menu Start -->
 
-    <section class="container pb-5" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="300" data-aos-offset="0">
-      <div class="row g-3">
-        <div class="col-12 col-lg-5">
-          <a href="#">
-            <img src="img/dummy.jpg" alt="" class="rounded img-fluid w-100" style="object-fit: cover; height: 100%;">
-          </a>
-        </div>    
-        <div class="col-12 col-lg-7">
-          <div class="row row-cols-2 g-3">
-            <div class="col">
-              <a href="#">
-                <img src="img/dummy.jpg" alt="" class="rounded img-fluid w-100" style="object-fit: cover;">
-              </a>
-            </div>
-            <div class="col">
-              <a href="#">
-                <img src="img/dummy.jpg" alt="" class="rounded img-fluid w-100" style="object-fit: cover;">
-              </a>
-            </div>
-            <div class="col">
-              <a href="#">
-                <img src="img/dummy.jpg" alt="" class="rounded img-fluid w-100" style="object-fit: cover;">
-              </a>
-            </div>
-            <div class="col">
-              <a href="#">
-                <img src="img/dummy.jpg" alt="" class="rounded img-fluid w-100" style="object-fit: cover;">
-              </a>
-            </div>
-          </div>
+    <section class="container pb-5" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">
+      <div class="row g-3 d-flex flex-column flex-md-row justify-content-center align-items-center align-items-md-stretch">
+        <div class="col-8 col-md-5 ">
+          <img src="img/gallery-1.jpeg" alt="gallery-1" class="rounded img-fluid w-100" style="object-fit: cover;">
         </div>
+        <div class="col-8 col-md-3">
+          <div class="d-flex flex-column gap-3 h-100" style="height: 100%;">
+            <img src="img/gallery-2.jpeg" alt="gallery-2" class="rounded img-fluid w-100 h-100" style="object-fit: cover;">
+            <img src="img/gallery-3.jpeg" alt="gallery-3" class="rounded img-fluid w-100 h-100" style="object-fit: cover;">
+            <img src="img/gallery-4.jpeg" alt="gallery-4" class="rounded img-fluid w-100 h-100" style="object-fit: cover;">
+          </div>
+        </div>        
       </div>
     </section>
     
@@ -144,7 +126,7 @@
     <section class="p-5" id="do-dont">
       <h2 class="main-title fw-bold text-center text-md-start" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">Do & Don't</h2>
       <div class="row d-flex flex-column flex-md-row justify-content-center align-items-start gap-5 py-5">
-        <div class="border col-12 col-md-4 p-4 rounded bg-dark text-light lh-lg" data-aos="flip-right" data-aos-once="true" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="0">
+        <div class="border col-12 col-md-4 p-4 rounded bg-dark text-light lh-lg" data-aos="flip-right" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">
           <h3 class="pb-2">Yang Harus Dilakukan:</h3>
           <div class="d-flex gap-2">
             <i class="bi bi-check-lg text-success"></i>
@@ -167,7 +149,7 @@
             <p>Rawat fasilitas kampus dan jaga kebersihan lingkungan.</p>
           </div>
         </div>
-        <div class="border col-12 col-md-4 p-4 rounded bg-dark text-light lh-lg" data-aos="flip-left" data-aos-once="true" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="0">
+        <div class="border col-12 col-md-4 p-4 rounded bg-dark text-light lh-lg" data-aos="flip-left" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">
           <h3 class="pb-2">Yang Tidak Boleh Dilakukan:</h3>
           <div class="d-flex gap-2">
             <i class="bi bi-x-lg text-danger"></i>
@@ -192,8 +174,8 @@
         </div>
       </div>
       <div>
-        <h3 class="fw-bold" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="0">Perhatikan juga peringatan-peringatan yang dapat ditemui di area kampus!</h3>
-        <div class="row pt-3" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="500" data-aos-offset="0">
+        <h3 class="fw-bold" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">Perhatikan juga peringatan-peringatan yang dapat ditemui di area kampus!</h3>
+        <div class="row pt-3" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">
 
           <div class="col-12 col-md-5 mb-3 mb-md-0">
             <img src="img/Larangan-1.jpeg" alt="Larangan 1" class="rounded img-fluid w-100 h-100 object-fit-cover custom-img-left">
@@ -223,13 +205,13 @@
     <!-- Dress Code Start -->
 
     <section class="p-5 bg-dark" id="dress-code">
-      <h2 class="main-title fw-bold text-center text-md-start text-light pb-3" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="0">Dress Code</h2>
-      <div class="d-flex justify-content-center justify-content-md-start gap-2" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="400" data-aos-offset="0">
+      <h2 class="main-title fw-bold text-center text-md-start text-light pb-3" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">Dress Code</h2>
+      <div class="d-flex justify-content-center justify-content-md-start gap-2" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">
         <button id="btnPria" class="btn btn-outline-light active">Pria</button>
         <button id="btnWanita" class="btn btn-outline-light">Wanita</button>
       </div>
       <div class="row pt-5">
-        <div class="col-md-5" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="600" data-aos-offset="0">
+        <div class="col-md-5" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">
           <div class="row g-2 pb-5">
             <div class="col-12 col-sm-10 col-md-12">
               <div class="ratio ratio-1x1">
@@ -241,8 +223,8 @@
         
         <div class="col-md-7 mt-3 mt-md-0 ps-md-4">
           <div class="lh-lg text-light">
-            <h3 class="fw-bold" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="800" data-aos-offset="0">Panduan Berpakaian di Kampus</h3>
-            <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="1000" data-aos-offset="0">
+            <h3 class="fw-bold" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">Panduan Berpakaian di Kampus</h3>
+            <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">
               <p>
                 Berpakaian rapi dan sopan adalah bentuk penghargaan terhadap lingkungan akademik. Berikut beberapa hal yang perlu diperhatikan:
               </p>
@@ -283,8 +265,156 @@
       </div>
     </section>
     
-
     <!-- Dress Code End -->
+
+    <!-- Lokasi Ruangan Start -->
+
+    <section class="p-5" id="lokasiruangan">
+      <h2 class="main-title fw-bold text-center text-md-start pb-3" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">Lokasi Ruangan</h2>
+      <h3 class="fw-bold" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">Telusuri ruangan sesuai lantainya dan temukan lokasi dengan cepat dan mudah.</h3>
+      <div class="d-flex flex-column align-items-center">
+        <h4 class="fw-bold p-5" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0" style="letter-spacing: 6px;">8th Floor</h4>
+        <div class="border col-12 col-md-4 p-4 rounded bg-dark text-light lh-lg" data-aos="flip-right" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">
+          <ul class="lh-lg">
+            <li>
+              Lab. Instrumen
+            </li>
+            <li>
+              Lab. Botani Farmasi
+            </li>
+            <li>
+              Lab. Farmasentika
+            </li>
+            <li>
+              Lab. Mikro
+            </li>
+            <li>
+              Lab. Kimia
+            </li>
+            <li>
+              Storage Kimia
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex flex-column align-items-center">
+        <h4 class="fw-bold p-5" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0" style="letter-spacing: 6px;">7th Floor</h4>
+        <div class="border col-12 col-md-4 p-4 rounded bg-dark text-light lh-lg" data-aos="flip-right" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">
+          <ul class="lh-lg">
+            <li>
+              Ruang Laboran / Dosen
+            </li>
+            <li>
+              Lab. Organoleptik dan Saji
+            </li>
+            <li>
+              Lab. Gizi Olahraga
+            </li>
+            <li>
+              ⁠Lab. Bangsal Umum
+            </li>
+            <li>
+              ⁠Lab. Kesehatan Lingkungan
+            </li>
+            <li>
+              Lab. Teknologi Pangan
+            </li>
+            <li>
+              ⁠Lab. Dietetik
+            </li>
+            <li>
+              Storage Pangan
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex flex-column align-items-center">
+        <h4 class="fw-bold p-5" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0" style="letter-spacing: 6px;">6th Floor</h4>
+        <div class="border col-12 col-md-4 p-4 rounded bg-dark text-light lh-lg" data-aos="flip-right" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">
+          <ul class="lh-lg">
+            <li>
+              Lab. K3
+            </li>
+            <li>
+              Lab. Microteaching
+            </li>
+            <li>
+              Lab. Psikologi
+            </li>
+            <li>
+              Ruang Kuliah Multimedia
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex flex-column align-items-center">
+        <h4 class="fw-bold p-5" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0" style="letter-spacing: 6px;">3rd - 5th Floor</h4>
+        <div class="border col-12 col-md-4 p-4 rounded bg-dark text-light lh-lg" data-aos="flip-right" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">
+          <ul class="lh-lg">
+            <li>
+              Ruang Kuliah
+            </li>
+            <li>
+              Lab. Komputer 401 - 402
+            </li>
+            <li>
+              Hybrid Class 403, 502 - 505
+            </li>
+            <li>
+              Auditorium 412
+            </li>
+            <li>
+              Studio Photographi / Poscast 510
+            </li>
+            <li>
+              Lab. Design / iMac 501
+            </li>
+            <li>
+              ⁠Kantin
+            </li>
+            <li>
+              R. Manajemen / Yayasan 506
+            </li>
+            <li>
+              ⁠Pengadilan Semu / Moot Court 509
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex flex-column align-items-center">
+        <h4 class="fw-bold p-5" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0" style="letter-spacing: 6px;">2nd Floor</h4>
+        <div class="border col-12 col-md-4 p-4 rounded bg-dark text-light lh-lg" data-aos="flip-right" data-aos-once="true" data-aos-duration="1000" data-aos-offset="0">
+          <ul class="lh-lg">
+            <li>
+              Pendaftaran Mahasiswa Baru
+            </li>
+            <li>
+              Perpustakaan
+            </li>
+            <li>
+              Meeting Room
+            </li>
+            <li>
+              Akademik dan Perkuliahan
+            </li>
+            <li>
+              Keuangan
+            </li>
+            <li>
+              ⁠Biro Marketing dan Pemasaran
+            </li>
+            <li>
+              ⁠R. Direktur
+            </li>
+            <li>
+              ⁠R. Dosen
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lokasi Ruangan End -->
 
     <!-- Footer Start -->
     <div class="container">
